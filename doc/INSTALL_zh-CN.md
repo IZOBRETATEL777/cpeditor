@@ -32,6 +32,14 @@
 
 下载 `AppImage`，添加执行权限 (`chmod +x <AppImagePath>`), 然后就可以运行了。
 
+对于 Debian 系的 Linux 发行版（如 Ubuntu，Linux Mint 等系统），你可以下载 `.deb` 包，随后在终端中执行如下命令：
+
+    ```sh
+    sudo apt install ./<path to .deb package>
+    ```
+
+接下来输入账户密码，并确认安装。你也可以使用 `Gdebi` 或其他图形化界面工具来安装 `.deb` 软件包。要使用 `Gdebi`，你的系统版本不应低于 Debian 10，Ubuntu 18.04，Linux Mint 19，或其他基于前述系统的发行版的相应版本。
+
 ### MacOS
 
 下载 `.dmg` 文件然后安装。如果提醒“未识别的开发者”之类的，请依然允许 CP Editor 运行。可以在 `Settings -> Security -> General` 中将 CP Editor 添加到白名单里。
